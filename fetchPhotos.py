@@ -2,22 +2,30 @@
 import tweepy
 import os
 
-consumer_key = "7vBUMmund9P7okUW4mu6VEjWh"
-consumer_secret = "Jh3XL273ScX20pGEfzShMpGxMMRbbSsjYnTxpBMbuponzp4Y14"
-access_token = "1725144152-XGTkVKMlUXiYk49HJ0RXSB6PIM6VYxh5M2KScKW"
-access_token_secret = "GcmboN0QSiofWbKFSEjb77Sgxz3luglyeY3XdGxOkJq1p"
+import _config
 
-auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-auth.set_access_token(access_token, access_token_secret)
+auth = tweepy.OAuthHandler(_config.consumer_key, _config.consumer_secret)
+auth.set_access_token(_config.access_token, _config.access_token_secret)
 
 api = tweepy.API(auth)
 
-media_tweet_urls = []
-for tweet in list(tweepy.Cursor(api.user_timeline).items()):
-        if 'entities' in tweet.__dict__:
-                    if 'media' in tweet.__dict__['entities']:
-                                    media_tweet_urls.append(tweet.entities['media'][0]['media_url'])
+tweets = tweepy.Cursor(api.user_timeline)
 
-# print(media_tweet_urls)
-for url in media_tweet_urls:
-    os.system('wget {}'.format(url))
+usable_tweets = []
+for tweet in tweets.items():
+    if 'entities' not in tweet.__dict__:
+        continue
+    elif tweet.coordinates is None:
+        continue
+
+    if 'media' in tweet.__dict__['entities']:
+        media_url = tweet.entities['media'][0]['media_url']
+        coordinates = tweet.coordinates['coordinates']
+        tw_info = dict(media_url=media_url, coordinates=coordinates)
+        usable_tweets.append(tw_info)
+
+for tw_info in usable_tweets:
+    media_url = tw_info['media_url']
+    coordinates = tw_info['coordinates']
+    os.system('wget --quiet {0}'.format(media_url))
+    print coordinates
