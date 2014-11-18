@@ -1,6 +1,6 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# _config.py
+# _configTwitter.py
 
 consumer_key = "7vBUMmund9P7okUW4mu6VEjWh"
 consumer_secret = "Jh3XL273ScX20pGEfzShMpGxMMRbbSsjYnTxpBMbuponzp4Y14"
