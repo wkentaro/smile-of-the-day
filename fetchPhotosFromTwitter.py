@@ -2,7 +2,7 @@
 import tweepy
 import os
 
-import _config
+import _configTwitter
 
 auth = tweepy.OAuthHandler(_config.consumer_key, _config.consumer_secret)
 auth.set_access_token(_config.access_token, _config.access_token_secret)
