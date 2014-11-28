@@ -3,6 +3,10 @@ twitter:
     consumer_secret: Jh3XL273ScX20pGEfzShMpGxMMRbbSsjYnTxpBMbuponzp4Y14
     access_token: 1725144152-XGTkVKMlUXiYk49HJ0RXSB6PIM6VYxh5M2KScKW
     access_token_secret: GcmboN0QSiofWbKFSEjb77Sgxz3luglyeY3XdGxOkJq1p
+  - consumer_key: p227xY5XWvr9ckckMbb5ldxt3
+    consumer_secret: GLzpCDLznsSj8IcPxHbEIodxPplGZ1xbWqHWcaygPGZ7WKrZY4
+    access_token: 1725144152-HwCeqtai4xZTffFD8BUezUIb9c2SknJhGKcsL7P
+    access_token_secret: sdlX1dnY6mEozTGdhRiG0xXZVdRkiWbZZEOzgDVJQ3NvJ
 tumblr:
   - consumer_key: daI8y3ZVbwJQ7fpqlmY9Lu00Vj0uG1rQubYSCGpCIowSnXfiIw
     consumer_secret: WEQz4XkAvfs9Lh8kt3IhBDKeAcIRqXh7XfQXPs8mUuJEyR3ZCu
