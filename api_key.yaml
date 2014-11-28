@@ -7,6 +7,10 @@ twitter:
     consumer_secret: GLzpCDLznsSj8IcPxHbEIodxPplGZ1xbWqHWcaygPGZ7WKrZY4
     access_token: 1725144152-HwCeqtai4xZTffFD8BUezUIb9c2SknJhGKcsL7P
     access_token_secret: sdlX1dnY6mEozTGdhRiG0xXZVdRkiWbZZEOzgDVJQ3NvJ
+  - consumer_key: MMdIl1ptcVf5LEBSPeLt84Vrp
+    consumer_secret: NHM0UE8ODyUT11YUm4i5mX8lV80vBlxZW1CBmsUUpSl5D0SRDU
+    access_token: 782291244-yYwDWWNAB9pDdOjFDB3Q6C0XyJModal8HgmAbbMl
+    access_token_secret: MVt4V3Paktma7wTpw4tkDLMESrWJt6KcJT2WgLuzgDcr3
 tumblr:
   - consumer_key: daI8y3ZVbwJQ7fpqlmY9Lu00Vj0uG1rQubYSCGpCIowSnXfiIw
     consumer_secret: WEQz4XkAvfs9Lh8kt3IhBDKeAcIRqXh7XfQXPs8mUuJEyR3ZCu
