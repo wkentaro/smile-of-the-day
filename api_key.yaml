@@ -7,6 +7,14 @@ twitter:
     consumer_secret: GLzpCDLznsSj8IcPxHbEIodxPplGZ1xbWqHWcaygPGZ7WKrZY4
     access_token: 1725144152-HwCeqtai4xZTffFD8BUezUIb9c2SknJhGKcsL7P
     access_token_secret: sdlX1dnY6mEozTGdhRiG0xXZVdRkiWbZZEOzgDVJQ3NvJ
+  - consumer_key: cq8q8oHgMHO9m5VBAJ6XMeDeD
+    consumer_secret: MwBNUYuzqH6enFRxSaBFSpcwA8kEvesCtq3k66cgNnnxGUQ8so
+    access_token: 1725144152-7ZETHutpXDt1tGqnpAI3ONDr6slw16HSpLxkLwA
+    access_token_secret: gyvu9xxxB7BCpEvHv0tXgaJmb426PGoifKkvnjSPUewIM
+  - consumer_key: wp453RL56WoITFA9pXPG3ANtd
+    consumer_secret: EtmSUF4g6YITOxeE73OL4FPfCHSgheYzGFlwsa2w7DW6TzpjPs
+    access_token: 1725144152-BV4nCypYingE1Ar8PMK5I372Jtwcd9RwOZWO4LT
+    access_token_secret: pPc4R720zFPE5MHDZhmsGCx7e0Ai0ATMuEIuhyhdFzN0J
   - consumer_key: MMdIl1ptcVf5LEBSPeLt84Vrp
     consumer_secret: NHM0UE8ODyUT11YUm4i5mX8lV80vBlxZW1CBmsUUpSl5D0SRDU
     access_token: 782291244-yYwDWWNAB9pDdOjFDB3Q6C0XyJModal8HgmAbbMl
@@ -19,6 +27,14 @@ twitter:
     consumer_secret: LHtD7j0gFuyfRzqW5pBzxYEmFGuoglYPNnnMudjUQ9WMVgwT1E
     access_token: 782291244-L4cCEsY8F3BiR3VLd7fL1w0n8YFhklTVwUYVmp4h
     access_token_secret: ISpjs6x7Q6G4aH5nakFgT7ssF85Qn944S9BRtT1rKbS8t
+  - consumer_key: N8WAikXRKx6VSO6BIxg2kRlNs
+    consumer_secret: hOC57cGJP5mPXta4NLKO73FCPUfrfrN83ky1oFZNjbVZd2DD1f
+    access_token: 943434728-MMtq11AOxY2Y48X7Bnplv5ap2PWWWbOteQafIHbs
+    access_token_secret: hrWRMUqHaC0WwFdcS80GOaCBnJeKgZ1SY2InQ6kdGUwUB
+  - consumer_key: i2pWlptiHxJEZbgecWWcMFuaT
+    consumer_secret: FTXDvNgRxdJWynlWc5Sy5uv5mWtnah9FUpuQ5MRFlir6i7DSjZ
+    access_token: 943434728-0t4ntjnxgSe73qOGwxHKXm1ctbuyscNoxMSlb8Rr
+    access_token_secret: uaZvmxuDhRVizigFmoVDZiq4Iew7F2XMu7HRtn3Dfjoev
 tumblr:
   - consumer_key: daI8y3ZVbwJQ7fpqlmY9Lu00Vj0uG1rQubYSCGpCIowSnXfiIw
     consumer_secret: WEQz4XkAvfs9Lh8kt3IhBDKeAcIRqXh7XfQXPs8mUuJEyR3ZCu
