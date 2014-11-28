@@ -1,0 +1,16 @@
+twitter:
+  - consumer_key: 7vBUMmund9P7okUW4mu6VEjWh
+    consumer_secret: Jh3XL273ScX20pGEfzShMpGxMMRbbSsjYnTxpBMbuponzp4Y14
+    access_token: 1725144152-XGTkVKMlUXiYk49HJ0RXSB6PIM6VYxh5M2KScKW
+    access_token_secret: GcmboN0QSiofWbKFSEjb77Sgxz3luglyeY3XdGxOkJq1p
+tumblr:
+  - consumer_key: daI8y3ZVbwJQ7fpqlmY9Lu00Vj0uG1rQubYSCGpCIowSnXfiIw
+    consumer_secret: WEQz4XkAvfs9Lh8kt3IhBDKeAcIRqXh7XfQXPs8mUuJEyR3ZCu
+    oauth_token: GM9BPpmw2m7RMfaNHyzxP4pimRALYdsMQeaPK1Ro9ZxqQuSa5C
+    oauth_secret: 1gx8mMIokvoGcu6e8LOeWcsP9UwBBDFk3CyAJTiD22CwTwKbGg
+flickr:
+  - api_key: d8c6d59cd907b81dccba5f67ec7af289
+    api_secret: e1a54e363f721795
+instagram:
+  - client_id: 25bf1a8c3ea84a03bfc69dbf4b67a6f7
+    client_secret: e6259e28762a4a8ca88d82adf68a7525
