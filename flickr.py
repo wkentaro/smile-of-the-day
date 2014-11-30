@@ -12,6 +12,7 @@ def get_flickr(key):
         'api_key': key['api_key'],
         'text': 'smile',
         'per_page': '50',
+        'has_geo': '1',
         'format': 'json',
         'nojsoncallback': '1',
         }
